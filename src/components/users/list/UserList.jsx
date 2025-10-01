@@ -12,7 +12,6 @@ export default function UserList({handleUserSelected, deleteUser}){
         })
         .catch((error) => console.error(error))
     },[])
-    // https://api.escuelajs.co/api/v1/users
     return(
         <>
             <div>
@@ -40,4 +39,5 @@ export default function UserList({handleUserSelected, deleteUser}){
             </div>
         </>
     )
+
 }
