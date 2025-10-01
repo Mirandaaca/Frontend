@@ -10,13 +10,6 @@ function App() {
   const [isActive, setIsActive] = useState(false)
   const [userSelected, setUserSelected] = useState(null)
 
-
-  const handleUserSelected = (user) => {
-    const {name, email, password, avatar, id} = user
-    setUserSelected({name, email, password, avatar, id})
-    setIsActive(true)
-  }
-
   return (
     <>
       <div>
